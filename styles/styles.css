@@ -218,7 +218,7 @@
   background-color: var(--bc--black);
   padding: 12px;
   border-radius: 8px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .our-blog-title {
@@ -261,3 +261,21 @@
 }
 
 /* our-blog-end */
+
+/* maps-start */
+
+.maps-wrapper {
+  background-color: var(--bc--white);
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.maps-title {
+  font-family: var(--main-font);
+  color: var(--fc--black);
+  text-align: center;
+  font-size: 28px;
+}
+
+/* maps-end */

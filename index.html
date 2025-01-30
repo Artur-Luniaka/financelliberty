@@ -16,6 +16,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Financial Liberty</title>
   </head>
@@ -171,9 +175,40 @@
             ></iframe>
           </div>
         </section>
+        <section id="contact-us">
+          <div class="contact-us-wrapper">
+            <h2 class="contact-us-title">Contact Us</h2>
+            <form class="contact-us-form">
+              <input
+                class="contacts-us-input"
+                type="text"
+                placeholder="Enter your name..."
+                pattern="[A-Za-zА-Яа-яЁё\s]+"
+                name="name"
+              />
+              <input
+                class="contacts-us-input"
+                type="email"
+                placeholder="Enter your email..."
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                name="email"
+              />
+              <input
+                class="contacts-us-input"
+                type="tel"
+                placeholder="Enter your phone..."
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                id="phone"
+                name="phone"
+              />
+              <button class="contact-us-btn" type="submit">Send</button>
+            </form>
+          </div>
+        </section>
       </main>
       <footer></footer>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>

@@ -12,6 +12,10 @@ body {
   background-color: #f8f8ff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul,
 ol {
   list-style: none;

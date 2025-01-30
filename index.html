@@ -35,9 +35,9 @@
           <nav class="mob-nav">
             <button class="mob-menu-close-btn" type="button">x</button>
             <ul class="mob-nav-list">
-              <li><a class="mob-menu-link" href="#">About Us</a></li>
-              <li><a class="mob-menu-link" href="#">Blog</a></li>
-              <li><a class="mob-menu-link" href="#">Contact</a></li>
+              <li><a class="mob-menu-link" href="#about-us">About Us</a></li>
+              <li><a class="mob-menu-link" href="#our-blog">Blog</a></li>
+              <li><a class="mob-menu-link" href="#contact-us">Contact</a></li>
               <li><a class="mob-menu-link" href="#">FAQ</a></li>
             </ul>
             <input class="mob-menu-input" type="text" placeholder="Search..." />
@@ -48,7 +48,7 @@
         <section class="hero" id="hero">
           <div class="hero-img">
             <h1 class="hero-title">Your trusted partner in financial growth.</h1>
-            <a class="hero-btn" href="#">Contact Us</a>
+            <a class="hero-btn" href="#contact-us">Contact Us</a>
           </div>
         </section>
         <section id="about-us">
@@ -197,7 +197,6 @@
                 class="contacts-us-input"
                 type="tel"
                 placeholder="Enter your phone..."
-                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
                 id="phone"
                 name="phone"
               />
@@ -206,7 +205,28 @@
           </div>
         </section>
       </main>
-      <footer></footer>
+      <footer class="footer-container">
+        <a class="footer-logo" href="./index.html">Financial Liberty.</a>
+        <a class="footer-phone" href="tel:+44751051256">+44-751-051-256</a>
+        <span class="footer-terms-wrapper"
+          ><a
+            class="footer-terms-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="./terms-of-use.html"
+            >Terms of Use</a
+          >
+          |
+          <a
+            class="footer-terms-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="./privacy-policy.html"
+            >Privacy Policy</a
+          ></span
+        >
+        <p class="footer-copyright-text">&copy;2025 Financial Liberty.All rights Reserver</p>
+      </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <script type="module" src="./js/main.js"></script>
